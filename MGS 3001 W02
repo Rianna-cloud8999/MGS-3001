@@ -1,9 +1,6 @@
+#Write a code
 import streamlit as st
-st.title("My first webpage")
-
-criteria_annual_salary = 50000
-criteria_annual_year_of_work = 5
-
+st.title("My first webapp")
 
 annual_salary = st.number_input("Please enter your annual salary:")
 year_of_work = st.number_input("Please enter your annual year of work:")
